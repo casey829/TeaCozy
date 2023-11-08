@@ -1,12 +1,5 @@
 /*universal */
-body {
-    background-color: hsl(0, 0%, 0%);
-    color: seashell;
-    font-family: "Helvetica", sans-serif;
-    font-size: 22px;
-    text-align: center;
-    margin: 0;
-}
+
 *{
     text-decoration: none;
     color: seashell;
@@ -59,4 +52,30 @@ li a{
     margin: auto;
     width: 100%;
     margin-top: 240px;
+}
+.text2{
+    margin: auto;
+    background-color: black;
+    color: seashell;
+    width: 100%;
+    text-align: center;
+}
+.tea-container{
+    display: flex;
+    max-width: 1250px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin: 20px 60px;
+
+}
+.tea img{
+    width:300px;
+    height: 200px;
+    padding: 20px 10px;
+}
+.tea figcaption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
