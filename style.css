@@ -58,6 +58,7 @@ li a{
     margin: auto;
     width: 100%;
     margin-top: 240px;
+    background-color: black;
 }
 .text2{
     margin: auto;
@@ -91,5 +92,29 @@ li a{
 #Locations{
     text-align: center;
     background-image: url(./images/img-locations-background.jpg);
+    height: 500px;
+    max-width: 1200px;
+    margin: 20px auto 20px auto;
+    padding-top: 70px;
+}
 
+.box-container{
+    width:1200px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.box{ 
+    opacity: 1.0;
+    padding: 10px;
+    background-color: black;
+    margin: 5px 20px;
+    display: flex;
+    flex-basis: 280px;
+    flex-direction: column;
+    justify-content: center;
+}
+.copyright{
+    text-align: left;
 }
